@@ -3,23 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root{
+    --top-buttons-background-color:#F5F4FA;
     --accent-color:#2196F3;
     --main-color:#212121;
     --sub-color:#757575;
     --main-color2:#FFF;
     --footer-background-color:#2F303A;
-    --team-background-color:#F5F4FA;
     --footer-contacts-color:rgba(255, 255, 255, 0.60);
 
-
-
-}
-a{
-    text-decoration: none;
-    
-}
-li{
-    list-style-type: none;
 }
