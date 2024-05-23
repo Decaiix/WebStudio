@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+    /* ---------- Шрифты ----------*/
+            /* font-family: "Raleway", sans-serif; */
+            /* font-family: "Roboto", sans-serif; */
+                        /* -------------------------- */
 :root{
     --top-buttons-background-color:#F5F4FA;
     --accent-color:#2196F3;
