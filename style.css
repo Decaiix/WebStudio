@@ -2,12 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
 }
-            /* ---------- Шрифты ----------*/
-            /* font-family: "Raleway", sans-serif; */
-            /* font-family: "Roboto", sans-serif; */
-            /* -------------------------- */
+
 :root{
     --accent-color:#2196F3;
     --main-color:#212121;
@@ -16,6 +12,9 @@
     --footer-background-color:#2F303A;
     --team-background-color:#F5F4FA;
     --footer-contacts-color:rgba(255, 255, 255, 0.60);
+
+
+
 }
 a{
     text-decoration: none;
