@@ -17,3 +17,109 @@
     --footer-contacts-color:rgba(255, 255, 255, 0.60);
 
 }
+body{
+    font-family: "Roboto", sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    font-family: "Roboto", sans-serif; 
+}
+.header-logo{
+    color:var(--main-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+.header-logo span{
+    color: var(--accent-color);
+}
+nav .nav-ul li a{
+    color: var(--main-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+transition:ease .35s;
+}   nav .nav-ul li a:hover{
+    color: var(--accent-color);
+}
+.r-nav li a{
+    color: var(--sub-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    transition:ease .35s;
+}
+.r-nav li a:hover{
+    color: var(--accent-color);
+}
+
+.hero-buttons button{
+    border-radius: 4px;
+    background: var(--top-buttons-background-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    border: none;
+    transition:.35s;
+    cursor: pointer;
+    padding: 6px 22px 6px 22px;
+}
+.hero-buttons button:hover{
+    background: var(--accent-color);
+    color: var(--main-color2);
+}
+.main-content ul li h2{
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+.main-content ul li p{
+    color: var(--sub-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.48px;
+}
+
+
+footer{
+    background: var(--footer-background-color);
+}
+.footer-logo{
+    color:var(--main-color2);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+.footer-logo span{
+    color: var(--accent-color);
+}
+footer address ul li .footer-address-google-maps{
+    color: var(--main-color2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+footer address .footer-contacts{
+    color: var(--footer-contacts-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
