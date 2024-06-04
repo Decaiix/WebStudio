@@ -16,6 +16,9 @@
     --team-background-color:#F5F4FA;
     --footer-contacts-color: rgba(255, 255, 255, 0.60);
 }
+address{
+    font-style: normal;
+}
 a{
     text-decoration: none;
 }
