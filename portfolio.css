@@ -17,6 +17,9 @@
     --footer-contacts-color:rgba(255, 255, 255, 0.60);
 
 }
+address{
+    font-style: normal;
+}
 body{
     font-family: "Roboto", sans-serif; 
 }
