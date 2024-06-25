@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+    margin: 0;
+}
         /* ---------- Шрифты ----------*/
             /* font-family: "Raleway", sans-serif; */
             /* font-family: "Roboto", sans-serif; */
@@ -17,7 +20,7 @@
     --footer-contacts-color: rgba(255, 255, 255, 0.60);
 }
 .container{
-    max-width: 1200px;
+    width: 1200px;
     padding-inline: 15px;
     margin-inline: auto;
 }
@@ -47,6 +50,10 @@ body{
 .header-logo span{
     color: var(--accent-color);
 }
+.container1{
+    display: flex;
+    align-items: center;
+}
 header{
     height: 80px;
     width: 100%;
@@ -54,8 +61,10 @@ header{
     display: flex;
     align-items: center;
 }
+nav{
+    margin-left: 93px;
+}
 nav ul{
-    padding-left: 93px;
     display: flex;
     gap: 50px;
 }
@@ -70,7 +79,7 @@ transition:ease .35s;
     color: var(--accent-color);
 }
 .r-nav{
-    padding-left: 344px;
+    margin-left: 344px;
     display: flex;
     gap: 50px;
 }
@@ -93,7 +102,9 @@ transition:ease .35s;
     background-color: var(--footer-background-color);
 }
 .hero h1{
-    padding-bottom: 30px;
+    width: 696px;
+    margin-inline: auto;
+    margin-bottom: 30px;
     color: var(--main-color2);
     font-size: 44px;
     font-weight: 900;
@@ -128,7 +139,7 @@ transition:ease .35s;
     text-transform: uppercase;
 }
 .advantages-section .our-advantages li p{
-    padding-top: 10px;
+    margin-top: 10px;
     width: 270px;
     color: var(--sub-color);
     font-size: 14px;
@@ -146,8 +157,8 @@ transition:ease .35s;
 }
 .advantages-div h3{
     text-align: center;
-    padding-top: 118px;
-    padding-bottom: 50px;
+    margin-top: 118px;
+    margin-bottom: 50px;
     color: var(--main-color);
     font-size: 36px;
     font-weight: 700;
@@ -164,6 +175,7 @@ transition:ease .35s;
  max-height: 260px;
 }
 .webstudio-team h2{
+    margin-bottom: 50px;
     text-align: center;
     color: var(--main-color);
     font-size: 36px;
@@ -172,7 +184,7 @@ transition:ease .35s;
     letter-spacing: 1.08px;
 }
 .webstudio-team h3{
-    padding-top: 30px;
+    margin-top: 30px;
     color: var(--main-color);
     font-size: 16px;
     font-weight: 500;
@@ -180,7 +192,7 @@ transition:ease .35s;
     letter-spacing: 0.48px;
 }
 .webstudio-team p{
-    padding-top: 10px;
+    margin-top: 10px;
     color: var(--sub-color);
 font-size: 16px;
 font-weight: 400;
@@ -204,7 +216,7 @@ footer{
     background: var(--footer-background-color);
 }
 .footer-logo{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color:var(--main-color2);
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -216,7 +228,7 @@ footer{
     color: var(--accent-color);
 }
 footer address ul li .footer-address-google-maps{
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     color: var(--main-color2);
     font-size: 14px;
     font-weight: 400;
@@ -224,7 +236,7 @@ footer address ul li .footer-address-google-maps{
     letter-spacing: 0.42px;
 }
 footer address .footer-contacts{
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     color: var(--footer-contacts-color);
     font-size: 14px;
     font-weight: 400;
