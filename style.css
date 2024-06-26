@@ -19,9 +19,6 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
     --team-background-color:#F5F4FA;
     --footer-contacts-color: rgba(255, 255, 255, 0.60);
 }
-.qweqweqweeeeeeee{
-    display: flex;
-}
 .container{
     width: 1200px;
     padding-inline: 15px;
@@ -53,7 +50,7 @@ body{
 .header-logo span{
     color: var(--accent-color);
 }
-.container1{
+.header-box{
     display: flex;
     align-items: center;
 }
@@ -124,12 +121,11 @@ transition:ease .35s;
     background: var(--accent-color);
     border-radius: 4px;
     border: none;
-    width: 216px;
-    height: 50px;
+    padding: 10px 32px;
     cursor: pointer;
 }
 .advantages-section{
-    padding-block: 94px;
+    padding-top: 94px;
     /* min-height: 780px; */
     background: var(--main-color2);
 }
@@ -158,9 +154,12 @@ transition:ease .35s;
     display: flex;
     gap: 30px;
 }
+.advantages-div{
+    padding-top:94px;
+    padding-bottom: 94px;
+}
 .advantages-div h3{
     text-align: center;
-    margin-top: 118px;
     margin-bottom: 50px;
     color: var(--main-color);
     font-size: 36px;
@@ -172,6 +171,16 @@ transition:ease .35s;
     padding-block: 94px;
     background: var(--team-background-color);
     /* min-height: 650px; */
+}
+.webstudio-team ul{
+    display: flex;
+    gap: 30px;
+}
+.webstudio-team ul li{
+    background: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center
 }
 .webstudio-team ul li img{
  max-width: 270px;
@@ -187,7 +196,7 @@ transition:ease .35s;
     letter-spacing: 1.08px;
 }
 .webstudio-team h3{
-    margin-top: 30px;
+    padding-top: 30px;
     color: var(--main-color);
     font-size: 16px;
     font-weight: 500;
@@ -195,6 +204,7 @@ transition:ease .35s;
     letter-spacing: 0.48px;
 }
 .webstudio-team p{
+    padding-bottom: 30px;
     margin-top: 10px;
     color: var(--sub-color);
 font-size: 16px;
@@ -202,23 +212,14 @@ font-weight: 400;
 line-height: 1.1875;
 letter-spacing: 0.48px;
 }
-.webstudio-team ul{
-    display: flex;
-    gap: 30px;
-}
-.webstudio-team ul li{
-    background: white;
-    height: 368px;
-    align-items: center;
-    text-align: center;
-    justify-content: center
-}
+
 footer{
     padding-block: 60px;
     width: 100%;
     background: var(--footer-background-color);
 }
 .footer-logo{
+    display: inline-block;
     margin-bottom: 20px;
     color:var(--main-color2);
     font-family: "Raleway", sans-serif;
@@ -231,6 +232,7 @@ footer{
     color: var(--accent-color);
 }
 footer address ul li .footer-address-google-maps{
+    display: inline-block;
     margin-bottom: 9px;
     color: var(--main-color2);
     font-size: 14px;
@@ -239,6 +241,7 @@ footer address ul li .footer-address-google-maps{
     letter-spacing: 0.42px;
 }
 footer address .footer-contacts{
+    display: inline-block;
     margin-bottom: 9px;
     color: var(--footer-contacts-color);
     font-size: 14px;
@@ -247,6 +250,7 @@ footer address .footer-contacts{
     letter-spacing: 0.42px;
 }
 .footer-contacts-bottom{
+    display: inline-block;
     color: var(--footer-contacts-color);
     font-size: 14px;
     font-weight: 400;
