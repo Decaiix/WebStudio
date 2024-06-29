@@ -39,6 +39,14 @@ li{
 body{
     font-family: "Roboto", sans-serif; 
 }
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background: var(--main-color2);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
 .header-logo{
     color:var(--main-color);
     font-family: "Raleway", sans-serif;
@@ -54,29 +62,21 @@ body{
     display: flex;
     align-items: center;
 }
-header{
-    height: 80px;
-    width: 100%;
-    background: var(--main-color2);
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #ECECEC;
-}
-nav{
+.header .nav{
     margin-left: 93px;
 }
-nav ul{
+.nav .nav-ul{
     display: flex;
     gap: 50px;
 }
-nav .nav-ul li a{
+.nav .nav-ul .header-navigation-li a{
     color: var(--main-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 transition:ease .35s;
-}   nav .nav-ul li a:hover{
+}   .nav .nav-ul .header-navigation-li a:hover{
     color: var(--accent-color);
 }
 .r-nav{
@@ -84,7 +84,7 @@ transition:ease .35s;
     display: flex;
     gap: 50px;
 }
-.r-nav li a{
+.r-nav .rnav-li a{
     color: var(--sub-color);
     font-size: 14px;
     font-weight: 500;
@@ -92,7 +92,7 @@ transition:ease .35s;
     letter-spacing: 0.28px;
     transition:ease .35s;
 }
-.r-nav li a:hover{
+.r-nav .rnav-li a:hover{
     color: var(--accent-color);
 }
 .hero{
@@ -113,7 +113,7 @@ transition:ease .35s;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
-.hero button{
+.hero .hero-button{
     color: var(--main-color2);
     font-size: 16px;
     font-weight: 700;
@@ -130,7 +130,7 @@ transition:ease .35s;
     /* min-height: 780px; */
     background: var(--main-color2);
 }
-.advantages-section .our-advantages li h2{
+.advantages-section .our-advantages .advantages-li h2{
     color: var(--main-color);
     font-size: 14px;
     font-weight: 700;
@@ -138,7 +138,7 @@ transition:ease .35s;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
-.advantages-section .our-advantages li p{
+.advantages-section .our-advantages .advantages-li p{
     margin-top: 10px;
     width: 270px;
     color: var(--sub-color);
@@ -173,17 +173,17 @@ transition:ease .35s;
     background: var(--team-background-color);
     /* min-height: 650px; */
 }
-.webstudio-team ul{
+.webstudio-team .wst-ul{
     display: flex;
     gap: 30px;
 }
-.webstudio-team ul li{
+.webstudio-team .wst-ul .wst-li{
     background: white;
     align-items: center;
     text-align: center;
     justify-content: center
 }
-.webstudio-team ul li img{
+.webstudio-team .wst-ul .wst-li img{
  max-width: 270px;
  max-height: 260px;
 }
@@ -216,12 +216,11 @@ line-height: 1.1875;
 letter-spacing: 0.48px;
 }
 
-footer{
+.footer{
     padding-block: 60px;
-    width: 100%;
     background: var(--footer-background-color);
 }
-.footer-logo{
+.footer .footer-logo{
     display: inline-block;
     margin-bottom: 20px;
     color:var(--main-color2);
@@ -231,10 +230,10 @@ footer{
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
-.footer-logo span{
+.footer .footer-logo span{
     color: var(--accent-color);
 }
-footer address ul li .footer-address-google-maps{
+.footer .address .contacts-footer-address-ul li .footer-address-google-maps{
     display: inline-block;
     margin-bottom: 9px;
     color: var(--main-color2);
@@ -243,7 +242,7 @@ footer address ul li .footer-address-google-maps{
     line-height: 24px;
     letter-spacing: 0.42px;
 }
-footer address .footer-contacts{
+.footer .address .footer-contacts{
     display: inline-block;
     margin-bottom: 9px;
     color: var(--footer-contacts-color);
