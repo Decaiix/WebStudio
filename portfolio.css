@@ -130,13 +130,15 @@ body {
 
 .imgs-main-content-ul{
   display: flex;
-  row-gap: 30px;
-  column-gap: 30px;
+  gap: 30px;
   flex-wrap: wrap;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .imgs-main-content-ul .li-content{
-  width: 370px;
   border: 1px solid #eee;
+}
+.imgs-main-content-ul .li-content img{
+width: 100%;
 }
 .imgs-main-content-ul .li-content h2 {
   color: var(--main-color);
