@@ -55,28 +55,28 @@ body{
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
-.header-logo span{
+.headerLogo-span{
     color: var(--accent-color);
 }
 .header-box{
     display: flex;
     align-items: center;
 }
-.header .nav{
+.nav{
     margin-left: 93px;
 }
-.nav .nav-ul{
+.nav-list{
     display: flex;
     gap: 50px;
 }
-.nav .nav-ul .header-navigation-li a{
+.nav-link{
     color: var(--main-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 transition:ease .35s;
-}   .nav .nav-ul .header-navigation-li a:hover{
+}   .nav-link:hover{
     color: var(--accent-color);
 }
 .r-nav{
@@ -84,7 +84,7 @@ transition:ease .35s;
     display: flex;
     gap: 50px;
 }
-.r-nav .rnav-li a{
+.rnav-link{
     color: var(--sub-color);
     font-size: 14px;
     font-weight: 500;
@@ -92,32 +92,31 @@ transition:ease .35s;
     letter-spacing: 0.28px;
     transition:ease .35s;
 }
-.r-nav .rnav-li a:hover{
+.rnav-link:hover{
     color: var(--accent-color);
 }
 .hero{
-    /* min-height: 600px; */
-    padding-block: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-    width: 100%;
     background-color: var(--footer-background-color);
 }
-.hero h1{
+.hero-title{
     width: 696px;
     margin-inline: auto;
     margin-bottom: 30px;
     color: var(--main-color2);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px; 
+    line-height: 1.36; 
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
-.hero .hero-button{
+.hero-button{
     color: var(--main-color2);
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.875;
     letter-spacing: 0.96px;
     background: var(--accent-color);
     border-radius: 4px;
@@ -127,10 +126,9 @@ transition:ease .35s;
 }
 .advantages-section{
     padding-top: 94px;
-    /* min-height: 780px; */
     background: var(--main-color2);
 }
-.advantages-section .our-advantages .advantages-li h2{
+.advantages-title{
     color: var(--main-color);
     font-size: 14px;
     font-weight: 700;
@@ -138,13 +136,12 @@ transition:ease .35s;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
-.advantages-section .our-advantages .advantages-li p{
+.advantages-text{
     margin-top: 10px;
-    width: 270px;
     color: var(--sub-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.42px;
 }
 .our-advantages{
@@ -155,11 +152,11 @@ transition:ease .35s;
     display: flex;
     gap: 30px;
 }
-.advantages-div{
+.photos-section{
     padding-top:94px;
     padding-bottom: 94px;
 }
-.advantages-div h3{
+.photos-title{
     text-align: center;
     margin-bottom: 50px;
     color: var(--main-color);
@@ -169,25 +166,23 @@ transition:ease .35s;
     letter-spacing: 1.08px;
 }
 .webstudio-team{
-    padding-block: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background: var(--team-background-color);
-    /* min-height: 650px; */
 }
-.webstudio-team .wst-ul{
+.team-list{
     display: flex;
     gap: 30px;
 }
-.webstudio-team .wst-ul .wst-li{
+.worker-card{
     background: white;
     align-items: center;
     text-align: center;
-    justify-content: center
 }
-.webstudio-team .wst-ul .wst-li img{
- max-width: 270px;
- max-height: 260px;
-}
-.webstudio-team h2{
+.worker-img{
+    height: 260px;
+   }
+.team-title{
     margin-bottom: 50px;
     text-align: center;
     color: var(--main-color);
@@ -200,14 +195,14 @@ transition:ease .35s;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.webstudio-team h3{
+.worker-name{
     color: var(--main-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.1875;
     letter-spacing: 0.48px;
 }
-.webstudio-team p{
+.worker-job{
     margin-top: 10px;
     color: var(--sub-color);
 font-size: 16px;
@@ -220,7 +215,7 @@ letter-spacing: 0.48px;
     padding-block: 60px;
     background: var(--footer-background-color);
 }
-.footer .footer-logo{
+.footer-logo{
     display: inline-block;
     margin-bottom: 20px;
     color:var(--main-color2);
@@ -230,32 +225,32 @@ letter-spacing: 0.48px;
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
-.footer .footer-logo span{
+.footer-span{
     color: var(--accent-color);
 }
-.footer .address .contacts-footer-address-ul li .footer-address-google-maps{
+.footer-maps{
     display: inline-block;
     margin-bottom: 9px;
     color: var(--main-color2);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.42px;
 }
-.footer .address .footer-contacts{
+.footer-contacts{
     display: inline-block;
     margin-bottom: 9px;
     color: var(--footer-contacts-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 1.7; 
     letter-spacing: 0.42px;
 }
-.footer-contacts-bottom{
+.footer-tel{
     display: inline-block;
     color: var(--footer-contacts-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 1.7; 
     letter-spacing: 0.42px;
 }
