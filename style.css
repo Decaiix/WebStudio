@@ -1,15 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
-    margin: 0;
-}
-        /* ---------- Шрифты ----------*/
-            /* font-family: "Raleway", sans-serif; */
-            /* font-family: "Roboto", sans-serif; */
-                        /* -------------------------- */
+
 :root{
     --accent-color:#2196F3;
     --main-color:#212121;
@@ -19,7 +8,15 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
     --team-background-color:#F5F4FA;
     --footer-contacts-color: rgba(255, 255, 255, 0.60);
 }
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+    margin: 0;
+}
+        /* ---------- Шрифты ----------*/
+            /* font-family: "Raleway", sans-serif; */
+            /* font-family: "Roboto", sans-serif; */
+                        /* -------------------------- */
 .container{
+    outline: 2px solid #fa094e;
     width: 1200px;
     padding-inline: 15px;
     margin-inline: auto;
@@ -33,7 +30,9 @@ address{
 a{
     text-decoration: none;
 }
-li{
+ul{
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 body{
@@ -155,6 +154,9 @@ transition:ease .35s;
 .photos-section{
     padding-top:94px;
     padding-bottom: 94px;
+}
+.photos-img{
+    width: 370px;
 }
 .photos-title{
     text-align: center;

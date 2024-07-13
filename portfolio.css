@@ -1,7 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+:root {
+  --top-buttons-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --sub-color: #757575;
+  --main-color2: #fff;
+  --footer-background-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 h1,
 h2,
@@ -16,16 +21,8 @@ p {
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
 /* -------------------------- */
-:root {
-  --top-buttons-background-color: #f5f4fa;
-  --accent-color: #2196f3;
-  --main-color: #212121;
-  --sub-color: #757575;
-  --main-color2: #fff;
-  --footer-background-color: #2f303a;
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
-}
 .container {
+  outline: 2px solid #fa094e;
   width: 1200px;
   padding-inline: 15px;
   margin-inline: auto;
@@ -39,7 +36,9 @@ address {
 a {
   text-decoration: none;
 }
-li {
+ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 body {
@@ -74,6 +73,7 @@ body {
 .nav-list{
   display: flex;
   gap: 50px;
+  margin-right: 344px;
 }
 .nav-link{
   color: var(--main-color);
@@ -86,7 +86,7 @@ transition:ease .35s;
   color: var(--accent-color);
 }
 .r-nav{
-  margin-left: 344px;
+  /* margin-left: 344px; */
   display: flex;
   gap: 50px;
 }
@@ -132,15 +132,16 @@ transition:ease .35s;
 
 .workshop-images{
   display: flex;
-  gap: 30px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .workshon-content{
+  background: var(--main-color2);
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eee;
 }
 .content-img{
-  width: 100%;
+  width:100%;
 }
 .content-project-designation{
   color: var(--main-color);
