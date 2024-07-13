@@ -5,12 +5,16 @@
 }
 :root {
   --top-buttons-background-color: #f5f4fa;
+  --content-border:#EEE;
   --accent-color: #2196f3;
   --main-color: #212121;
   --sub-color: #757575;
   --main-color2: #fff;
   --footer-background-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
@@ -51,9 +55,7 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
+
 .header{
   padding-top: 24px;
   padding-bottom: 25px;
@@ -118,28 +120,25 @@ transition:ease .35s;
 }
 .buttons{
   margin-bottom: 50px;
-  text-align: center;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
+
 .hero-button{
 border-radius: 4px;
 background-color: var(--top-buttons-background-color);
 color: var(--main-color);
 font-size: 16px;
-font-weight: 500;
-line-height: 1.625;
+font-weight:500;
+line-height: 1.62;
 letter-spacing: 0.48px;
 border: none;
-transition: 0.35s;
-cursor: pointer;
 padding: 6px 22px;
 }
 .hero-button:hover {
 background: var(--accent-color);
 color: var(--main-color2);
-padding: 6px 25px;
 }
 
 .workshop-images{
@@ -149,8 +148,6 @@ gap: 30px;
 }
 .workshop-content{
 flex-basis: calc((100% - 60px) / 3);
-border: 1px solid #eee;
-background: var(--main-color2);
 }
 .content-img{
 width:100%;
@@ -171,7 +168,11 @@ line-height: 1.875;
 letter-spacing: 0.48px;
 }
 .card-text {
-padding: 20px 24px;
+  width: 370px;
+  border: 1px solid var(--content-border);
+  border-top: none;
+  padding: 20px 24px;
+  background: var(--main-color2);
 }
 
 .footer{
